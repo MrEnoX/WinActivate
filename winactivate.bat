@@ -21,11 +21,7 @@ if '%errorlevel%' NEQ '0' (
     exit /B
 
 :gotAdmin
-    pushd "%CD%"
-    CD /D "%~dp0"
+    slmgr.vbs /ipk RBJYN-Y76DX-6PVMD-RY9HQ-3PBQ3
+    slmgr.vbs /skms kms.lotro.cc
+    slmgr.vbs /ato
 :--------------------------------------
-
-@echo off
-slmgr.vbs /ipk RBJYN-Y76DX-6PVMD-RY9HQ-3PBQ3
-slmgr.vbs /skms kms.lotro.cc
-slmgr.vbs /ato
