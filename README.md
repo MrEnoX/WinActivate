@@ -1,1 +1,1 @@
-# Windows10-11 Pro Activation
+# Windows10-11 Activation
